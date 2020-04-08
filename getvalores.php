@@ -1,6 +1,6 @@
 <?php 
 
-$connection = mysqli_connect("localhost","ntio","misdatos","arduino");
+$connection = mysqli_connect("localhost","usuario","clave","arduino");
 
 if(isset($_GET['q'])) {
 
